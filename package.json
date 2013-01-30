@@ -1,0 +1,15 @@
+{
+    "name": "tweetserver",
+    "description": "A server to proxy and cache requests to the Twitter v1.1 REST API",
+    "preferGlobal": true,
+    "author": "James Allardice <admin@jamesallardice.com>",
+    "version": "0.0.1",
+    "bin": {
+        "tweetserver": "./bin/tweetserver"
+    },
+    "dependencies": {
+        "express": "3.0.6",
+        "commander": "1.1.1",
+        "oauth": "0.9.8"
+    }
+}

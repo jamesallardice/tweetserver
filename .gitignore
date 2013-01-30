@@ -1,0 +1,5 @@
+# Ignore third-party node modules
+node_modules
+
+# Ignore OS X specifc files
+.DS_Store
