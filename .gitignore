@@ -1,5 +1,6 @@
-# Ignore third-party node modules
+# Ignore third-party node modules and npm logs
 node_modules
+npm-debug.log
 
 # Ignore OS X specifc files
 .DS_Store
