@@ -2,7 +2,15 @@
 
 TweetServer is a simple Node.js app for querying and caching responses from the Twitter REST API (version 1.1). It runs as a standalone server (built on Express) and effectively proxies any requests over to the API.
 
-It handles rate limits for you, ensuring that the returned data is as up-to-date as possible without getting your application blacklisted for making too many requests.
+## Why should you use it?
+
+ - It handles the Twitter API rate limits for you, ensuring that the returned data is as up-to-date as possible without getting your application blacklisted for making too many requests.
+
+ - It means you can communicate with the API from your front-end JavaScript with AJAX. This is difficult with the latest (1.1) version of the API since almost all requests have to be authenticated.
+
+ - You can use it to display Tweets in your own style, rather than having to use one of the pre-built Twitter widgets.
+
+ - Supports JSONP so you should be able to run your server anywhere and still make AJAX requests to it.
 
 ## Setup
 
