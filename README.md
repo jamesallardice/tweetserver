@@ -50,9 +50,9 @@ If you installed TweetServer via npm with the `-g` (global) option, you will hav
 
     tweetserver
     
-You will see a message that tells you the server is now running. At this point you'll be able to open a browser and check that everything's working properly. Assuming your Tweet Server is running on `localhost` on port 3000, you can visit:
+You will see a message that tells you the server is now running. At this point you'll be able to open a browser and check that everything's working properly. Assuming your Tweet Server is running on `localhost` on port 3456 (which is the default), you can visit:
 
-    http://localhost:3000/statuses/user_timeline?screen_name=james_allardice
+    http://localhost:3456/statuses/user_timeline?screen_name=james_allardice
     
 If you've used the Twitter API much before, you may have noticed that everything after the port in that URL is simply the same as what you would usually use when calling the API directly. Currently, all [Twitter API v1.1 methods](https://dev.twitter.com/docs/api/1.1) that support HTTP GET requests are supported.
 
