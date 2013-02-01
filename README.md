@@ -53,3 +53,7 @@ You will see a message that tells you the server is now running. At this point y
     http://localhost:3000/statuses/user_timeline?screen_name=james_allardice
     
 If you've used the Twitter API much before, you may have noticed that everything after the port in that URL is simply the same as what you would usually use when calling the API directly. Currently, all [Twitter API v1.1 methods](https://dev.twitter.com/docs/api/1.1) that support HTTP GET requests are supported.
+
+#### Keeping the server running
+
+I highly recommend using the brilliant "[forever](https://github.com/nodejitsu/forever)" module to keep your server up and running all the time.
