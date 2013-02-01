@@ -22,6 +22,7 @@ The `.tweetserverrc` file contains simple JSON in the following format:
 
 ```javascript
 {
+    "port": 1234,
     "auth": {
         "access-token": "xxxxx",
         "access-secret": "xxxxx",
@@ -39,6 +40,7 @@ If you'd prefer not to store your API keys in a file, you can also specify them 
 | `-a`          | `--access-secret`   | Your Twitter API access token secret  |
 | `-c`          | `--consumer-key`    | Your Twitter API consumer key         |
 | `-s`          | `--consumer-secret` | Your Twitter API consumer secret      |
+| `-p`          | `--port`            | The port on which the server will run |
 
 If you specify command line arguments and have a configuration file, the command line arguments will override the configuration file. You can run the server with any number of the arguments.
 
