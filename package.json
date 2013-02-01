@@ -4,7 +4,13 @@
     "preferGlobal": true,
     "author": "James Allardice <admin@jamesallardice.com>",
     "repository": "git://github.com/jamesallardice/tweetserver",
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "keywords": [
+        "twitter",
+        "server",
+        "proxy",
+        "api"
+    ],
     "bin": {
         "tweetserver": "./bin/tweetserver"
     },
