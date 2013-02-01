@@ -3,6 +3,7 @@
     "description": "A server to proxy and cache requests to the Twitter v1.1 REST API",
     "preferGlobal": true,
     "author": "James Allardice <admin@jamesallardice.com>",
+    "repository": "git://github.com/jamesallardice/tweetserver",
     "version": "0.0.1",
     "bin": {
         "tweetserver": "./bin/tweetserver"
