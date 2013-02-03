@@ -4,7 +4,7 @@
     "preferGlobal": true,
     "author": "James Allardice <admin@jamesallardice.com>",
     "repository": "git://github.com/jamesallardice/tweetserver",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "keywords": [
         "twitter",
         "server",
