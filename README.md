@@ -32,10 +32,10 @@ The `.tweetserverrc` file contains simple JSON in the following format:
 {
     "port": 1234,
     "auth": {
-        "access-token": "xxxxx",
-        "access-secret": "xxxxx",
-        "consumer-key": "xxxxx",
-        "consumer-secret": "xxxxx"
+        "accessToken": "xxxxx",
+        "accessSecret": "xxxxx",
+        "consumerKey": "xxxxx",
+        "consumerSecret": "xxxxx"
     }
 }
 ```
